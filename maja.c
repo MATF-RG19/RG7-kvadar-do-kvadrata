@@ -292,6 +292,34 @@ void on_keyboard(unsigned char key, int x, int y)
         }
         begin_time = glutGet(GLUT_ELAPSED_TIME);
         break;
+    case 'r': /*Restart tekuceg nivoa.*/
+    case 'R': if(level==0){
+                indikator=0; 
+                up_key=0; key_pre=0;
+                ind_pre=0;
+                count_3=0; 
+                count_4=0; 
+                count_1=0; 
+                count_2=0; 
+                count_all=0;
+                level=0;
+                ind_pre_pre=0;
+                curr_i=8;
+                curr_j=2;
+
+                glutPostRedisplay();
+              }
+              else if(level==1){
+                curr_i=6;
+                curr_j=12;
+                glutPostRedisplay();
+              }
+              else if(level==2){
+                  curr_i=9;
+                  curr_j=1;
+                  glutPostRedisplay();
+              }
+        break;
     } 
 }
     /*    sajt odakle je preuzeta nijansa plave boje
