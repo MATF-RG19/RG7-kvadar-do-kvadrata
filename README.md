@@ -19,6 +19,7 @@ Cilj ove igrice, kao što i sam naziv kaže, je da se dođe do crnog kvadrata u 
 Taster | Događaj  
 ----- | ------ 
 <kbd>G</kbd> | pocetak igre
+<kbd>R</kbd> | reset nivoa
 <kdb>:arrow_left:</kdbg> | kvadar se rotira u levo za 90 stepeni, ako kvadar stoji uspravno, u suprotnom se translira za jedno polje u levo
 <kdb>:arrow_up:</kdbg> | kvadar se rotira na gore za 90 stepeni, ako kvadar stoji uspravno, u suprotnom<sup>*</sup>
 <kdb>:arrow_right:</kdbg> | kvadar se rotira u desno za 90 stepeni, ako kvadar stoji uspravno, u suprotnom se translira za jedno polje u desno
@@ -28,4 +29,4 @@ Taster | Događaj
 *izuzetak kod kretanja pogledati na [linku](https://github.com/MATF-RG18/RG137-kvadar-do-kvadrata/tree/master/Pictures%20and%20videos/Videos)! 
 
 ## Dodatno
-Izveštaji razvoja igrice se nalaze na [wiki](https://github.com/MATF-RG18/RG137-kvadar-do-kvadrata/wiki) stranici, a za bolji uvid probati samu igricu :wink:.
+Izveštaji razvoja igrice se nalaze na [wiki](https://github.com/MATF-RG18/RG137-kvadar-do-kvadrata/wiki) stranici, dodaci su na ovoj [wiki](https://github.com/MATF-RG19/RG7-kvadar-do-kvadrata/wiki) stranici, a za bolji uvid probati samu igricu :wink:.
