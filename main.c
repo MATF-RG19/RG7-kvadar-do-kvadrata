@@ -699,7 +699,7 @@ void on_timer(int id)
     rotation+=5;
     /*Hvala koleginici Bojani Ristanović na pomoći oko implementiranja tajmera.*/
     float new_time = glutGet(GLUT_ELAPSED_TIME);
-    diff_time = (new_time - begin_time)/1000.;
+    diff_time = (new_time - begin_time)/1000.0;
     begin_time = new_time;
     if(level<=2)
         countdown += diff_time;
