@@ -551,7 +551,7 @@ void on_display(void)
         }
     }
 
-    /* Tekst-uputstvo za pocetak, poruka, broj nivoa i broj poteza.*/
+    /* Tekst-uputstvo za pocetak, poruka, broj nivoa, broj poteza i vreme trajanja igrice od pritiska tastera g/G.*/
     glPopMatrix();
         glColor3f(0.8, 0.8, 0);
         glPushAttrib(GL_ENABLE_BIT);
@@ -699,8 +699,8 @@ void on_timer(int id)
     rotation+=5;
     /*Hvala koleginici Bojani Ristanović na pomoći oko implementiranja tajmera.*/
     float new_time = glutGet(GLUT_ELAPSED_TIME);
-	diff_time = (new_time - begin_time)/1000.;
-	begin_time = new_time;
+    diff_time = (new_time - begin_time)/1000.;
+    begin_time = new_time;
     if(level<=2)
         countdown += diff_time;
     
